@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>multibrowse</id>
-    <version>3.0.2</version>
+    <version>3.0.2.20240812</version>
     <title>Multibrowse: Multi-Monitor Kiosk Browser Launcher</title>
     <authors>Ivo Janssen</authors>
     <owners>foxxyz</owners>
@@ -26,6 +26,7 @@ Example: `choco install multibrowse --params '"/installLocation:C:\opt\multibrow
     <copyright>© Ivo Janssen</copyright>
     <dependencies>
       <dependency id="GoogleChrome" version="120.0.6099.109" />
+      <dependency id="vcredist140" />
     </dependencies>
   </metadata>
   <files>
