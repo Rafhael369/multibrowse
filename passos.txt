@@ -1,0 +1,13 @@
+# instalar o rust
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
+# clonar o projeto
+git clone https://github.com/foxxyz/multibrowse.git
+cd multibrowse
+
+# buildar e rodar
+cargo build
+cargo run
+
+# instalar globalmente
+sudo mv target/release/multibrowse /usr/local/bin/
